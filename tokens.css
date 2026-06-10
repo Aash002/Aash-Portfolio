@@ -1,0 +1,74 @@
+/* Hallmark · pre-emit critique: P5 H5 E5 S5 R5 V5
+ * macrostructure: Gallery Ledger · nav: N5 floating pill · footer: Ft5 statement
+ * theme: custom · vibe: obsidian champagne data atelier · tone: luxury/austere · anchor hue: champagne gold
+ * audience: recruiters + freelance clients · use: project proof
+ */
+:root {
+  color-scheme: dark;
+
+  --color-void: oklch(8% 0.018 270);
+  --color-paper: oklch(12% 0.022 268);
+  --color-paper-2: oklch(16% 0.025 268);
+  --color-paper-3: oklch(21% 0.029 268);
+  --color-card: oklch(18% 0.027 268 / 86%);
+  --color-card-strong: oklch(24% 0.032 268 / 88%);
+  --color-ink: oklch(94% 0.015 86);
+  --color-muted: oklch(76% 0.025 86);
+  --color-subtle: oklch(55% 0.028 86);
+  --color-accent: oklch(82% 0.115 83);
+  --color-accent-2: oklch(70% 0.128 66);
+  --color-accent-3: oklch(88% 0.07 110);
+  --color-cyan: oklch(77% 0.105 205);
+  --color-ruby: oklch(63% 0.145 28);
+  --color-line: oklch(100% 0 0 / 12%);
+  --color-line-strong: oklch(100% 0 0 / 24%);
+  --color-glow: oklch(82% 0.115 83 / 24%);
+  --color-shadow: oklch(0% 0 0 / 55%);
+  --color-focus: oklch(88% 0.11 83);
+
+  --font-display: Didot, Bodoni 72, "Bodoni MT", "Times New Roman", ui-serif, Georgia, serif;
+  --font-body: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-mono: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+
+  --space-2xs: 0.25rem;
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4rem;
+  --space-4xl: 6rem;
+  --space-5xl: 8rem;
+
+  --text-xs: clamp(0.75rem, 0.72rem + 0.12vw, 0.82rem);
+  --text-sm: clamp(0.88rem, 0.84rem + 0.18vw, 0.98rem);
+  --text-md: clamp(1rem, 0.96rem + 0.22vw, 1.13rem);
+  --text-lg: clamp(1.17rem, 1.06rem + 0.48vw, 1.48rem);
+  --text-xl: clamp(1.45rem, 1.2rem + 1.05vw, 2.08rem);
+  --text-2xl: clamp(2rem, 1.45rem + 2.35vw, 3.45rem);
+  --text-3xl: clamp(2.7rem, 1.55rem + 4.9vw, 5.85rem);
+  --text-display: clamp(4rem, 1.8rem + 9.6vw, 10.6rem);
+
+  --leading-tight: 0.82;
+  --leading-title: 0.96;
+  --leading-copy: 1.66;
+
+  --radius-xs: 0.35rem;
+  --radius-sm: 0.65rem;
+  --radius-md: 1rem;
+  --radius-lg: 1.45rem;
+  --radius-xl: 2.25rem;
+  --radius-full: 999rem;
+
+  --rule-hair: 1px;
+  --rule-thin: 2px;
+  --rule-heavy: 7px;
+
+  --dur-fast: 140ms;
+  --dur-med: 260ms;
+  --dur-slow: 680ms;
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in: cubic-bezier(0.7, 0, 0.84, 0);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+}
